@@ -1,6 +1,11 @@
 import React from "react"
+import { Home } from "pages/Home";
 import * as S from "./styles";
 
-export default function Home() {
-  return <S.Container>Hello world!</S.Container>
+export default function App() {
+  return (
+    <S.Container>
+      <Home />
+    </S.Container>
+  );
 }
