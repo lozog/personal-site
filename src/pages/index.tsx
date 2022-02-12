@@ -1,5 +1,6 @@
 import React from "react"
+import * as S from "./styles";
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return <S.Container>Hello world!</S.Container>
 }
