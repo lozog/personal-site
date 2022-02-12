@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { colours, dims } from "globalStyle";
 
 export const Container = styled.div`
   margin: 75px auto 0;
@@ -6,7 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Centerpiece = styled.div`
-  width: 808px;
+  width: ${dims.centerpieceWidth};
   margin: 0 auto;
 `;
 
@@ -26,7 +27,7 @@ export const ImageOverlay = styled.div`
 `;
 
 export const ImageOverlayText = styled.div`
-  color: $color-white;
+  color: ${colours.white};
   font-weight: 600;
   font-size: 24pt;
   text-transform: uppercase;
