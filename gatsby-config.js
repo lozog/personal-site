@@ -10,6 +10,14 @@ module.exports = {
         "pages": path.join(__dirname, 'src/pages'),
         "src": path.join(__dirname, 'src')
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Montserrat\:400,600`,
+        ],
+        display: 'swap'
+      }
     }
   ],
 }
