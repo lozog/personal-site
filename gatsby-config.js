@@ -1,23 +1,29 @@
-const path = require('path')
+const path = require("path");
 
 module.exports = {
-  /* Your site config here */
   plugins: [
-    "gatsby-plugin-typescript",
     {
-      resolve: 'gatsby-plugin-root-import',
+      resolve: "gatsby-plugin-typescript",
       options: {
-        "pages": path.join(__dirname, 'src/pages'),
-        "src": path.join(__dirname, 'src')
+        isTSX: true, // defaults to false
+        jsxPragma: "jsx", // defaults to "React"
+        allExtensions: true, // defaults to false
+      },
+    },
+    {
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        "pages": path.join(__dirname, "src/pages"),
+        "src": path.join(__dirname, "src")
       }
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: "gatsby-plugin-google-fonts",
       options: {
-        fonts: [`Montserrat\:400,600`,
+        fonts: ["Montserrat\:400,600",
         ],
-        display: 'swap'
+        display: "swap"
       }
     }
   ],
-}
+};
