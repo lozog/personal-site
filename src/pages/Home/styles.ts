@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 import { colours, dims } from "globalStyle";
 
 export const Container = styled.div`
