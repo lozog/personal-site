@@ -1,5 +1,5 @@
 import React from "react"
-import { Home } from "pages/Home";
+import { Home } from "pages/home";
 import {GlobalStyle} from "globalStyle"
 import * as S from "./styles";
 
