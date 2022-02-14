@@ -14,7 +14,7 @@ export const Layout = ({ pageTitle, children }: Props) => {
   return (
     <>
       <GlobalStyle />
-      <div>
+      <S.Container>
         <title>{pageTitle}</title>
         <S.Header>
           <S.Name>
@@ -41,7 +41,7 @@ export const Layout = ({ pageTitle, children }: Props) => {
         <main>
           {children}
         </main>
-      </div>
+      </S.Container>
     </>
   )
 }

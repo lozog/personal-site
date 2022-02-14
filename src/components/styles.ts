@@ -17,7 +17,7 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.div`
-  margin: ${dims.appMargin};
+  margin: ${dims.appMargin} 0;
 `;
 
 export const Name = styled.span`
