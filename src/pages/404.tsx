@@ -1,9 +1,12 @@
-import { useEffect } from "react";
-import { navigate } from "@reach/router"
+import React from "react";
+import { Layout } from "components/layout";
 
-export default (): void => {
-  useEffect(() => {
-    navigate("/");
-  }, []);
-  return null;
-};
+export default function NotFoundPage() {
+  return (
+    <Layout>
+      <div>
+        404 - Page not found.
+      </div>
+    </Layout>
+  );
+}
