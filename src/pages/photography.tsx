@@ -35,7 +35,7 @@ export default function Photography() {
 
   const images = gallery.images.map(image => (
     image.filename
-  ))
+  ));
 
   return (
     <Layout>

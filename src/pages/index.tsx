@@ -1,4 +1,5 @@
 import React from "react"
+import "react-image-lightbox/style.css";
 import { Link } from "gatsby";
 import { Layout } from "components/layout";
 import * as S from "styles";
