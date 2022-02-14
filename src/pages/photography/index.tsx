@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Lightbox from "react-image-lightbox";
 import { Layout } from "components/layout";
 import { Overlay } from "components/overlay";
-import * as S from "./styles";
+import * as S from "styles/photography";
 
 const gallery = {
   title: "Buenos Aires",

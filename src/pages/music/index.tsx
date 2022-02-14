@@ -1,7 +1,7 @@
 import React from "react";
 import { Overlay } from "components/overlay";
 import { Layout } from "components/layout";
-import * as S from "./styles";
+import * as S from "styles/music";
 
 const LIFESAVER = {
   title: "Lifesaver",

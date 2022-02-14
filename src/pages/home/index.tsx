@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby";
-import * as S from "./styles";
+import * as S from "styles/home";
 
 export function Home() {
   return (
