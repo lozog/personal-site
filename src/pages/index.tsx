@@ -18,9 +18,7 @@ export default function App() {
           </Link>
           <Link to={"/about"}>
             <S.Image2>
-              <picture>
-                <img src={"https://res.cloudinary.com/dtxbzcy7f/image/upload/v1627956234/personal-site/000017960026-26_bbaaro.jpg"} alt="me" />
-              </picture>
+              <img src={"https://res.cloudinary.com/dtxbzcy7f/image/upload/v1627956234/personal-site/000017960026-26_bbaaro.jpg"} alt="me" />
               <S.ImageOverlay>
                 <S.ImageOverlayText>About</S.ImageOverlayText>
               </S.ImageOverlay>

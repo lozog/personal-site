@@ -4,11 +4,19 @@ import { colours, dims } from "styles/globalStyle";
 export const Container = styled.div`
   margin: 75px auto 0;
   width: 100%;
+
+  @media (max-width: ${dims.smallScreenWidth}) {
+    margin-top: 0;
+  }
 `;
 
 export const Centerpiece = styled.div`
   width: ${dims.centerpieceWidth};
   margin: 0 auto;
+
+  @media (max-width: ${dims.smallScreenWidth}) {
+    width: 100%;
+  }
 `;
 
 export const ImageOverlay = styled.div`
@@ -76,6 +84,19 @@ export const Image1 = styled(Image)`
     object-fit: cover;
     object-position: center;
   }
+
+  // all 3 images have these same styles - not sure why it doesn't work when
+  // i put them on Image
+  @media (max-width: ${dims.smallScreenWidth}) {
+    float: none;
+    transform: none;
+    margin: 0 0 30px;
+
+    img {
+      width:100%;
+      height: auto;
+    }
+  }
 `;
 
 export const Image2 = styled(Image)`
@@ -84,6 +105,17 @@ export const Image2 = styled(Image)`
   img {
     width: 357px;
     height: 500px;
+  }
+
+  @media (max-width: ${dims.smallScreenWidth}) {
+    float: none;
+    transform: none;
+    margin: 0 0 30px;
+
+    img {
+      width:100%;
+      height: auto;
+    }
   }
 `;
 
@@ -94,6 +126,17 @@ export const Image3 = styled(Image)`
   img {
     width: 370px;
     height: 240px;
+  }
+
+  @media (max-width: ${dims.smallScreenWidth}) {
+    float: none;
+    transform: none;
+    margin: 0 0 30px;
+
+    img {
+      width:100%;
+      height: auto;
+    }
   }
 `;
 
