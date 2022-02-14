@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colours, dims } from "globalStyle";
+import { colours, dims } from "styles/globalStyle";
 
 export const Container = styled.div`
   max-width: 1250px;

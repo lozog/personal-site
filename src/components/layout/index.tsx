@@ -2,7 +2,7 @@ import { Spotify, Github, Instagram, Bandcamp } from '@icons-pack/react-simple-i
 import React from "react";
 import { Link } from "gatsby";
 import EmailIcon from "assets/email.svg";
-import { GlobalStyle } from "globalStyle";
+import { GlobalStyle } from "styles/globalStyle";
 import * as S from "./styles";
 
 interface Props {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { dims } from "globalStyle";
+import { dims } from "styles/globalStyle";
 
 export const Grid = styled.div`
   width: 100%;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colours } from "globalStyle";
+import { colours } from "styles/globalStyle";
 
 export const Container = styled.div`
   display: inline-block;
