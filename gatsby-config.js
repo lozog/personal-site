@@ -13,8 +13,10 @@ module.exports = {
     {
       resolve: "gatsby-plugin-root-import",
       options: {
+        "components": path.join(__dirname, "src/components"),
         "pages": path.join(__dirname, "src/pages"),
-        "src": path.join(__dirname, "src")
+        "src": path.join(__dirname, "src"),
+        "assets": path.join(__dirname, "src/assets")
       }
     },
     {
@@ -24,6 +26,7 @@ module.exports = {
         ],
         display: "swap"
       }
-    }
-  ],
+    },
+    "gatsby-plugin-react-svg"
+  ]
 };

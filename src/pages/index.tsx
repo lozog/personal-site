@@ -1,15 +1,14 @@
 import React from "react"
+import { Layout } from "components/layout";
 import { Home } from "pages/home";
-import {GlobalStyle} from "globalStyle"
 import * as S from "./styles";
 
 export default function App() {
   return (
-    <>
-      <GlobalStyle />
+    <Layout pageTitle="Liam Ozog">
       <S.Container>
         <Home />
       </S.Container>
-    </>
+    </Layout>
   );
 }
