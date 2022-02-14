@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Header = styled.div`
+export const Header = styled.header`
   margin: ${dims.appMargin} 0;
 `;
 
@@ -66,4 +66,10 @@ export const IconContainer = styled.div`
       height: 48;
     }
   }
+`;
+
+export const Footer = styled.footer`
+  font-size: 12px;
+  margin-top: auto;
+  padding: 20px 0 10px;
 `;

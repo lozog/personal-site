@@ -41,6 +41,9 @@ export const Layout = ({ pageTitle, children }: Props) => {
         <main>
           {children}
         </main>
+        <S.Footer>
+          &#169;2022 Liam Ozog
+        </S.Footer>
       </S.Container>
     </>
   )
