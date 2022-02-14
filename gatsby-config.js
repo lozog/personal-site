@@ -28,6 +28,7 @@ module.exports = {
         display: "swap"
       }
     },
-    "gatsby-plugin-react-svg"
+    "gatsby-plugin-react-svg",
+    "gatsby-plugin-styled-components"
   ]
 };
