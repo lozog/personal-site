@@ -6,16 +6,15 @@ import { GlobalStyle } from "globalStyle";
 import * as S from "./styles";
 
 interface Props {
-  pageTitle: string;
   children: React.ReactNode;
 }
 
-export const Layout = ({ pageTitle, children }: Props) => {
+export const Layout = ({ children }: Props) => {
   return (
     <>
       <GlobalStyle />
       <S.Container>
-        <title>{pageTitle}</title>
+        <title>Liam Ozog</title>
         <S.Header>
           <S.Name>
             <Link to="/">Liam Ozog</Link>

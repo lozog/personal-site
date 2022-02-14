@@ -4,7 +4,7 @@ import { Home } from "pages/home";
 
 export default function App() {
   return (
-    <Layout pageTitle="Liam Ozog">
+    <Layout>
       <Home />
     </Layout>
   );

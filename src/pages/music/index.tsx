@@ -80,7 +80,7 @@ const RELEASES = [
 
 export default function Music() {
   return (
-    <Layout pageTitle="Liam Ozog">
+    <Layout>
       <S.Grid>
         {
           RELEASES.map((releaseInfo) => (
