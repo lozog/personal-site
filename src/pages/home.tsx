@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby";
 import * as S from "styles/home";
 
-export function Home() {
+export default function Home() {
   return (
     <S.Container>
       <S.Centerpiece>
