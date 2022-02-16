@@ -6,13 +6,9 @@ This is the source code for Liam Ozog's personal site. Built using React & Gatsb
 ```
 yarn && yarn start
 ```
-<!-- or
-```
-yarn && netlify dev
-``` -->
 
-<!-- ## Build & Deploy
+## Build & Deploy
 ```
 yarn build
 netlify deploy --prod
-``` -->
+```
