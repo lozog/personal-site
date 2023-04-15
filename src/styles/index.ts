@@ -139,7 +139,3 @@ export const Image3 = styled(Image)`
     }
   }
 `;
-
-export const ClearFloat = styled.div`
-  clear: both;
-`;

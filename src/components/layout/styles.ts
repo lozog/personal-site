@@ -8,7 +8,6 @@ export const Container = styled.div`
   padding: 0 ${dims.appMargin};
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 
   @media (max-width: ${dims.smallScreenWidth}) {
     width: 100%;

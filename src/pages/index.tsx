@@ -33,7 +33,6 @@ export default function App() {
               </S.ImageOverlay>
             </S.Image3>
           </Link>
-          <S.ClearFloat />
         </S.Centerpiece>
       </S.Container>
     </Layout>
